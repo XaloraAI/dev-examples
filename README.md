@@ -1,20 +1,20 @@
-# Heurist Integration Examples
+# XaloraIntegration Examples
 
-This repository contains reference implementations to help developers integrate with Heurist AI services, including LLM, embedding, image generation, and using Heurist Mesh Agents.
+This repository contains reference implementations to help developers integrate with XaloraAI services, including LLM, embedding, image generation, and using XaloraMesh Agents.
 
-## Getting Started with Heurist API
+## Getting Started with XaloraAPI
 
 ### Obtaining Your API Key
-**All examples in this repository require a Heurist API key.**
+**All examples in this repository require a XaloraAPI key.**
 
-1. Create an API key by purchasing credits with crypto at [Credits and API Management Portal](https://heurist.ai/credits)
-2. You can also apply for free trial credits using the [form](https://dev-api-form.heurist.ai/)
+1. Create an API key by purchasing credits with crypto at [Credits and API Management Portal]
+2. You can also apply for free trial credits using the [form]
 3. Use this key in all examples by setting it as an environment variable or directly in the code
 
 ### Prerequisites
 - Node.js (for JavaScript examples)
 - Python 3.8+ (for Python examples)
-- Heurist API Key (from steps above)
+- XaloraAPI Key (from steps above)
 
 ### Installation
 
@@ -68,8 +68,6 @@ Examples in both JavaScript and Python for:
 - REST API integration
 - Tool/function calling with Hermes Llama-3.1
 
-[LLM Gateway Documentation](https://docs.heurist.ai/dev-guide/llm-gateway/introduction)
-
 ### Embedding Generation
 [`basic/embeddings/`](basic/embeddings/) - Generate embeddings for semantic search and text analysis.
 
@@ -81,12 +79,10 @@ Examples in both JavaScript and Python for:
 
 Examples in both JavaScript and Python for:
 - REST API integration
-- Heurist SDK integration (JavaScript)
+- XaloraSDK integration (JavaScript)
 - SmartGen for enhanced generation
 
-[Image Generation Documentation](https://docs.heurist.ai/dev-guide/image-generation/introduction)
-
-## Heurist Mesh Agents
+## XaloraMesh Agents
 
 [`mesh-agents/`](mesh-agents/) - Specialized AI agents that provide domain-specific capabilities through API and MCP (Model Context Protocol).
 
@@ -109,26 +105,18 @@ Examples in both JavaScript and Python for:
 ### BlockBeak-TelegramBot
 [`mesh-agents/BlockBeak-TelegramBot/`](mesh-agents/BlockBeak-TelegramBot/) - AI-powered smart Telegram bot that:
 
-- Interfaces with specialized Heurist Mesh agents
+- Interfaces with specialized XaloraMesh agents
 - Supports both CLI and Telegram interfaces
 - Uses MCP (Model Control Protocol) for agent connectivity
 - Provides smart analysis on crypto market and information services
 
 ## Creating Your Own Mesh Agent Applications
 
-To build with Heurist Mesh Agents:
+To build with XaloraMesh Agents:
 
-1. Get a Heurist API Key from [the developer portal](https://dev-api-form.heurist.ai/)
-2. Visit the [Heurist Mesh MCP platform](https://mcp.heurist.ai/)
+1. Get a XaloraAPI Key from [the developer portal]
+2. Visit the [XaloraMesh MCP platform]
 3. Select your desired specialized agents
 4. Create your dedicated MCP server
 5. Use the MCP server URL in your application
 6. Follow the examples in this repository
-
-## Resources
-
-- [Heurist Official Documentation](https://docs.heurist.ai/introduction)
-- [Supported Models](https://docs.heurist.ai/dev-guide/supported-models)
-- [Mesh MCP Server Repository](https://github.com/heurist-network/heurist-mesh-mcp-server)
-- [Mesh Agents Repository](https://github.com/heurist-network/heurist-agent-framework/tree/main/mesh)
-- [Create Your Own MCP Server](https://github.com/heurist-network/heurist-agent-framework/tree/main/mesh)
